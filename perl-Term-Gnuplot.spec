@@ -11,6 +11,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 Source0:	http://search.cpan.org/CPAN/modules/by-module/Term/%{module}-%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/%{module}/
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 BuildRequires:	perl-devel
 BuildRequires:	svgalib-devel
 BuildRequires:	gnuplot
