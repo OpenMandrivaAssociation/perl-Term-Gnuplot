@@ -1,7 +1,7 @@
 %define	module	Term-Gnuplot
 %define	name	perl-%{module}
 %define	version	0.90380905
-%define	release	%mkrel 5
+%define	release	%mkrel 6
 
 Name:		%{name}
 Version:	%{version}
