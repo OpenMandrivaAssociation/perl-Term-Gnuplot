@@ -14,7 +14,7 @@ BuildRequires:	gnuplot
 Requires:       gnuplot
 BuildRequires:	libjpeg-devel
 BuildRequires:	X11-devel
-BuildRequires:	libpng-devel
+BuildRequires:	pkgconfig(libpng15)
 BuildRequires:	freetype-devel
 
 %description
