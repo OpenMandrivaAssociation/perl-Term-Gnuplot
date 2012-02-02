@@ -17,6 +17,7 @@ BuildRequires:	libjpeg-devel
 BuildRequires:	X11-devel
 BuildRequires:	pkgconfig(libpng15)
 BuildRequires:	freetype-devel
+buildRequires:	gd-devel
 
 %description
 Lowlevel graphics using gnuplot drawing routines.
