@@ -12,7 +12,7 @@ Url:		http://search.cpan.org/dist/%{module}/
 BuildRequires:	perl-devel
 BuildRequires:	svgalib-devel
 BuildRequires:	gnuplot
-Requires:       gnuplot
+Requires:	gnuplot
 BuildRequires:	libjpeg-devel
 BuildRequires:	X11-devel
 BuildRequires:	pkgconfig(libpng15)
