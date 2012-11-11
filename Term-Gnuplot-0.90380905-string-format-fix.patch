@@ -1,0 +1,22 @@
+--- Term-Gnuplot-0.90380905/Gnuplot.xs.str_fmt~	2012-02-02 05:51:17.723305410 +0100
++++ Term-Gnuplot-0.90380905/Gnuplot.xs	2012-02-02 05:51:22.636297534 +0100
+@@ -38,7 +38,7 @@ set_tokens(SV **svp, int n, SV* acc)
+ 	char buf[80];
+ 	sprintf(buf, "panic: more than %d tokens for options: %d",
+ 		MAX_TOKENS, num_tokens);
+-	croak(buf);
++	croak("%s", buf);
+     }
+     while (num_tokens > tk) {
+ 	SV *elt = *svp++;
+--- Term-Gnuplot-0.90380905/gnuterm/term/post.trm.str_fmt~	2002-09-04 00:41:04.000000000 +0200
++++ Term-Gnuplot-0.90380905/gnuterm/term/post.trm	2012-02-02 05:32:39.849098018 +0100
+@@ -1562,7 +1562,7 @@ gnudict begin\ngsave\n\
+     if (!ps_common_portrait) {
+ 	fprintf(gpoutfile,"90 rotate\n0 %d translate\n", (int)(-PS_YMAX));
+     }
+-    fprintf(gpoutfile, psg1);
++    fprintf(gpoutfile, "%s", psg1);
+     if (ps_common_uses_fonts)
+ 	fprintf(gpoutfile, "(%s) findfont %d scalefont setfont\n",
+ 		ps_font, (t->v_char) );
