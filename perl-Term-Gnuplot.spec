@@ -2,7 +2,7 @@
 
 Name:		perl-%{module}
 Version:	0.90380905
-Release:	10
+Release:	11
 Summary:	Lowlevel graphics using gnuplot drawing routines
 License:	GPL or Artistic
 Group:		Development/Perl
@@ -15,7 +15,7 @@ BuildRequires:	gnuplot
 Requires:	    gnuplot
 BuildRequires:	jpeg-devel
 BuildRequires:	pkgconfig(x11)
-BuildRequires:	pkgconfig(libpng15)
+BuildRequires:	pkgconfig(libpng)
 BuildRequires:	freetype-devel
 buildRequires:	gd-devel
 
