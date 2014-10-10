@@ -2,7 +2,7 @@
 
 Name:		perl-%{module}
 Version:	0.90380905
-Release:	11
+Release:	12
 Summary:	Lowlevel graphics using gnuplot drawing routines
 License:	GPL or Artistic
 Group:		Development/Perl
