@@ -8,7 +8,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 Source0:	http://search.cpan.org/CPAN/modules/by-module/Term/%{module}-%{version}.tar.bz2
 Patch0:		Term-Gnuplot-0.90380905-string-format-fix.patch
-Url:		http://search.cpan.org/dist/%{module}/
+Url:		https://search.cpan.org/dist/%{module}/
 BuildRequires:	perl-devel
 BuildRequires:	svgalib-devel
 BuildRequires:	gnuplot
